@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- ##################################################################
+     #                                                                #
+     #                THIS SCRIPT IS MADE BY TOT                      #
+     #                https://discord.gg/VnpMqz96YH                   #
+     #                                                                #
+     ################################################################## -->
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">{ "imports": { "three": "./three.module.min.js" } }</script>
+    <script src="map-data.js"></script>
+    <script src="zones.js"></script>
+</head>
+<body>
+    <div id="map" class="mini hidden">
+        <canvas id="zones"></canvas>
+        <div id="marks"></div>
+        <img class="mlogo" src="img/logo.png">
+        <div class="vig"></div>
+    </div>
+    <div id="side" class="hidden">
+        <div class="panel"><div class="ptitle"></div><div class="prows"></div></div>
+        <div class="rail"></div>
+    </div>
+    <div id="hint" class="hidden"></div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
